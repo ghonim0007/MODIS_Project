@@ -37,20 +37,14 @@ The script defines the location of Lake Nasser, the time range from 2000 to 2023
 
 Project Description
 
-    Image Collection: The script collects MODIS images from the MODIS/061/MOD09GA dataset, focusing on the RGB bands (sur_refl_b02, sur_refl_b04, sur_refl_b03). The images are filtered over the specified geographical region (Lake Nasser area) and time range.
+Image Collection: The script collects MODIS images from the MODIS/061/MOD09GA dataset, focusing on the RGB bands (sur_refl_b02, sur_refl_b04, sur_refl_b03). The images are filtered over the specified geographical region (Lake Nasser area) and time range.
 
-    Time Series Creation: The script generates a time series of these images, covering the period from January 1, 2000, to August 1, 2023. The images are processed with predefined visual parameters to enhance image quality.
+Time Series Creation: The script generates a time series of these images, covering the period from January 1, 2000, to August 1, 2023. The images are processed with predefined visual parameters to enhance image quality.
 
-    GIF Generation: The script generates a GIF that visualizes the changes over time, showing the images sequentially with date labels.
+ GIF Generation: The script generates a GIF that visualizes the changes over time, showing the images sequentially with date labels.
 
-    Saving Results: All generated images and the final GIF are saved to the specified output directory.
+Saving Results: All generated images and the final GIF are saved to the specified output directory.
 
-Usage
-
-    Clone or download the project repository.
-    Modify the out_dir and other directory paths according to your system setup.
-    Run the Python script to authenticate and process the satellite images.
-    Once the script runs successfully, a GIF will be created that shows the environmental changes around Lake Nasser over time.
 
 ## GIF Visualization
 
